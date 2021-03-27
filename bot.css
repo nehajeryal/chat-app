@@ -1,0 +1,24 @@
+*{
+
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+#message-container{
+    width:80%;
+    max-width:1200px;
+}
+
+#message-container div{
+    padding:5%;
+    background-color: #ccc;
+
+    }
+
+    #message-container div:nth-child(2n){
+        background-color:#FFF;
+
+    }
+    
